@@ -1,6 +1,7 @@
 name: base
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - numpy>=1.20
   - pytest>=8.3.2
