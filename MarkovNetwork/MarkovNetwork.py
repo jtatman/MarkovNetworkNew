@@ -67,7 +67,7 @@ class MarkovNetwork(object):
         self.num_input_states = num_input_states
         self.num_memory_states = num_memory_states
         self.num_output_states = num_output_states
-        self.states = np.zeros(num_input_states + num_memory_states + num_output_states, dtype=np.bool)
+        self.states = np.zeros(num_input_states + num_memory_states + num_output_states, dtype=bool)
         self.markov_gates = []
         self.markov_gate_input_ids = []
         self.markov_gate_output_ids = []
