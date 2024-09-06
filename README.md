@@ -1,13 +1,10 @@
 [![Build Status](https://travis-ci.org/rhiever/MarkovNetwork.svg?branch=master)](https://travis-ci.org/rhiever/MarkovNetwork)
-[![Code Health](https://landscape.io/github/rhiever/MarkovNetwork/master/landscape.svg?style=flat)](https://landscape.io/github/rhiever/MarkovNetwork/master)
 [![Coverage Status](https://coveralls.io/repos/rhiever/MarkovNetwork/badge.svg?branch=master&service=github)](https://coveralls.io/github/rhiever/MarkovNetwork?branch=master)
-![Python 3.5](https://img.shields.io/badge/python-3.5-blue.svg)
+![Python 3.10](https://img.shields.io/badge/python-3.5-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 [![PyPI version](https://badge.fury.io/py/MarkovNetwork.svg)](https://badge.fury.io/py/MarkovNetwork)
 
 # Markov Network
-
-[![Join the chat at https://gitter.im/rhiever/MarkovNetwork](https://badges.gitter.im/rhiever/MarkovNetwork.svg)](https://gitter.im/rhiever/MarkovNetwork?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Python implementation of Markov Networks for neural computing.
 
@@ -127,13 +124,7 @@ my_mn = MarkovNetwork(num_input_states=2,
 
 Before you file a bug report, please [check the existing issues](https://github.com/rhiever/MarkovNetwork/issues?utf8=%E2%9C%93&q=is%3Aissue) to make sure that your issue hasn't already been filed or solved. If the bug is unreported, please [file a new issue](https://github.com/rhiever/MarkovNetwork/issues/new) and describe your bug in detail.
 
-## Contributing to the MarkovNetwork package
-
-We welcome you to [check the existing issues](https://github.com/rhiever/MarkovNetwork/issues/) for bugs or enhancements to work on. If you have an idea for an extension to the MarkovNetwork package, please [file a new issue](https://github.com/rhiever/MarkovNetwork/issues/new) so we can discuss it.
-
-## Citing MarkovNetwork
-
-If you use the MarkovNetwork package as part of your workflow in a scientific publication, please consider citing the following publication that describes Markov Networks in detail.
+## Original MarkovNetwork
 
 Randal S. Olson, David B. Knoester, and Christoph Adami. "Evolution of swarming behavior is shaped by how predators attack." *Artificial Life Journal*, to appear in Spring 2016.
 
