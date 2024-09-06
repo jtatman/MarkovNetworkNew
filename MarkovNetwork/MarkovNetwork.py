@@ -73,7 +73,7 @@ class MarkovNetwork(object):
         self.markov_gate_output_ids = []
 
         if genome is None:
-            self.genome = np.random.randint(0, 256, random_genome_length).astype(np.uint8)
+            self.genome = np.random.randint(0, 256, random_genome_length).astype(np.uint64)
 
             # Seed the random genome with seed_num_markov_gates Markov Gates
             for _ in range(seed_num_markov_gates):
@@ -81,7 +81,7 @@ class MarkovNetwork(object):
                 self.genome[start_index] = 42
                 self.genome[start_index + 1] = 213
         else:
-            self.genome = np.array(genome, dtype=np.uint8)
+            self.genome = np.array(genome, dtype=np.uint64)
 
         self._setup_markov_network(probabilistic)
 
