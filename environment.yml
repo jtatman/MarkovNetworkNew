@@ -1,1 +1,5 @@
-numpy
+name: my_env
+channels:
+  - defaults
+dependencies:
+  - numpy>=1.20
