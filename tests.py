@@ -48,7 +48,7 @@ def test_init():
 def test_init_seed_genome():
     """MarkovNetwork initializer with seeded genome"""
     np.random.seed(4303423)
-    seed_genome = np.random.randint(0, 254, 10000)
+    seed_genome = np.random.randint(0, 256, 10000)
     seed_genome[0:2] = np.array([42, 213])
 
     test_mn = MarkovNetwork(num_input_states=4,
@@ -63,7 +63,7 @@ def test_init_seed_genome():
 def test_init_seed_bad_genome():
     """MarkovNetwork initializer with bad seeded genome"""
     np.random.seed(4303423)
-    seed_genome = np.random.randint(0, 254, 10000)
+    seed_genome = np.random.randint(0, 256, 10000)
     seed_genome[0:2] = np.array([42, 213])
     seed_genome[-10:-8] = np.array([42, 213])
 
